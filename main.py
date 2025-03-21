@@ -136,3 +136,4 @@ print(input_prediction)
 
 input_pred_label = np.argmax(input_prediction)
 print("Predicted label:", input_pred_label)
+
