@@ -1,6 +1,18 @@
+# Core Dependencies
+numpy>=1.18.0
+matplotlib>=3.2.0
+opencv-python>=4.2.0.32
+Pillow>=8.0.0
+scikit-learn>=0.22.0
+tensorflow>=2.4.0
+
+# For Streamlit Deployment
+streamlit>=1.10.0
+
+# Other Dependencies (if needed)
 distlib==0.3.8
 filelock==3.15.4
 platformdirs==4.2.2
+pywin32==306
 virtualenv==20.26.3
 wcwidth==0.2.13
-streamlit
