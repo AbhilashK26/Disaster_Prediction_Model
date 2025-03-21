@@ -4,3 +4,10 @@ platformdirs==4.2.2
 virtualenv==20.26.3
 wcwidth==0.2.13
 streamlit
+numpy
+pandas
+matplotlib
+opencv-python
+pillow
+scikit-learn
+kaggle
