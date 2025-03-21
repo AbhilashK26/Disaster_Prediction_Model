@@ -104,7 +104,8 @@ from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 num_of_classes = 9
 model = Sequential()
 
-model.add(Conv2D(64, kernel_size=(3,3), activation='relu', input_shape=(128,128,3)))
+model.add(keras.Input(shape=(128,128,3)))
+model.add(Conv2D(64, (3,3), activation='relu'))
 model.add(MaxPooling2D(pool_size=(2,2)))
 
 model.add(Conv2D(32, kernel_size=(3,3), activation='relu'))
