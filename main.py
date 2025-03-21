@@ -7,6 +7,10 @@ import cv2
 from PIL import Image, ImageFile
 from sklearn.model_selection import train_test_split
 
+# import os
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
+
+
 # %%
 # Test image
 from PIL import Image
